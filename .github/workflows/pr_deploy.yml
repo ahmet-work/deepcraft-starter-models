@@ -21,7 +21,7 @@ jobs:
         shell: pwsh
         run: |
           git clone https://x-token-auth:${{ secrets.STARTER_MODELS_PIPELINE_TOKEN }}@bitbucket.org/imagimob/starter-projects-pipeline.git
-          pip install -e _starter-projects-pipeline
+          pip install -e starter-projects-pipeline
 
       - name: Deploy changed projects
         shell: pwsh
