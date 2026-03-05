@@ -42,7 +42,7 @@ jobs:
           } elseif ("${{ github.event.action }}" -eq "main_update_post") {
             update-trained --project '${{ toJson(github.event.client_payload) }}'
           } elseif ("${{ github.event_name }}" -eq "push") {
-            update-changes
+            update-changes --commit '${{ github.sha }}'
           } else {
             throw "Unsupported event: ${{ github.event_name }}"
           }
