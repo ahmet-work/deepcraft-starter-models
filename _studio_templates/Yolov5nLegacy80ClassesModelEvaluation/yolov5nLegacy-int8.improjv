@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImagimobStudio version="2.0.0.0">
+  <Project id="42c1b7a0-aa59-43b5-aa6b-85fc9bbea75e">
+    <Resources />
+    <Options>
+      <UseCMSIS>false</UseCMSIS>
+    </Options>
+    <CodeGenerationParams />
+  </Project>
+</ImagimobStudio>
